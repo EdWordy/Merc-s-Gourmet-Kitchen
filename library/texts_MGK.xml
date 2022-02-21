@@ -1,0 +1,23 @@
+<t>
+
+	<!-- Meat Dispenser tooltips -->
+
+	<object_meat_tank_name id="465700300" pid="465700301">
+		<EN>Meat Dispenser</EN>
+	</object_meat_tank_name>
+	<object_meat_tank_desc id="465700302" pid="465700303">
+		<EN>The meat dispenser provides nutritious meals from simple ingredients. Meat paste isn't particularly delicious or great, but provides the proper nutrition.</EN>
+	</object_meat_tank_desc>
+	
+	<!-- Alage Tray Tooltips -->
+	
+	<resource_processed_food01_algae id="465700304" pid="465700305">
+		<EN>Processed Food (Algae)</EN>
+	</resource_processed_food01_algae>
+	
+		<resource_processed_food_desc id="465700306" pid="465700307">
+		<EN>Algae that has been processed and cooked into a complete meal. Sub-par nutritional value.</EN>
+	</resource_processed_food_desc>
+	
+
+</t>

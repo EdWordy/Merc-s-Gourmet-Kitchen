@@ -1,0 +1,309 @@
+<data>
+
+	<Element>
+	
+		<!-- Meat Dispenser -->
+	
+		<me _annotation="Meat Dispenser" alternateY="false" costGroup="0" ec="4" mid="465700050" nonSymmetrical="false" offsetRot="R0">
+			<data />
+			<linked>
+				<l damageGroup="0" eid="1" gridOffX="0" gridOffY="0" id="465700053" layer="0" rot="R0" />
+				<l damageGroup="0" eid="2" gridOffX="1" gridOffY="0" id="465700054" layer="0" rot="R0" />
+				<l damageGroup="0" eid="3" gridOffX="1" gridOffY="0" id="465700051" layer="0" rot="R0" />
+				<l damageGroup="0" eid="4" gridOffX="0" gridOffY="0" id="465700052" layer="0" rot="R0" />
+			</linked>
+			<events />
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="0" randomRot="false" systemPoints="0" viewMode="Normal">
+				<name tid="465700300" />
+				<desc tid="465700302" />
+				<guiIcon aid="meatTankIcon" />
+				<subCat id="1515" />
+				<restrictions>
+					<l gridX="0" gridY="-1" sizeX="2" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="3" skill="Construction" />
+			</objectInfo>
+		</me>
+		<me _linkedBy="465700050 Meat Dispenser" alternateY="false" costGroup="0" ec="3" mid="465700051" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="2" gridOffX="0" gridOffY="0" layer="0" type="Light">
+					<element id="0" lightValue="None" playAnimation="false" walkGridCost="0">
+						<definedStates>
+							<l state="Standby">
+								<light color="104037fe" powerTier="Decorative" skipCenter="false">
+									<offset x="0" y="0" />
+									<second color="174d48ff" dimming="125" ratio="0.25" />
+									<flood brightness="500" distance="3" />
+									<ray angle="270" brightness="300" distance="5" rotate="false" rotatePerSec="0.0" smoothEdges="true" spread="180.0" />
+								</light>
+							</l>
+							<l state="NoPowerOrError">
+								<light color="9a1212ff" powerTier="None" skipCenter="false">
+									<flood brightness="255" distance="4" />
+								</light>
+							</l>
+						</definedStates>
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+		</me>
+		<me _linkedBy="465700050 Meat Dispenser" alternateY="false" costGroup="0" ec="3" mid="465700052" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="2" gridOffX="0" gridOffY="0" layer="0" type="Light">
+					<element id="0" lightValue="None" playAnimation="false" walkGridCost="0">
+						<definedStates>
+							<l state="Standby">
+								<light color="194010ff" powerTier="Decorative" skipCenter="false">
+									<offset x="0" y="0" />
+									<second color="1e6648ff" dimming="125" ratio="0.4" />
+									<flood brightness="250" distance="3" />
+								</light>
+							</l>
+							<l state="NoPowerOrError">
+								<light color="9a1212ff" powerTier="None" skipCenter="false">
+									<flood brightness="255" distance="4" />
+								</light>
+							</l>
+						</definedStates>
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+		</me>
+		<me _linkedBy="465700050 Meat Dispenser" alternateY="false" costGroup="949" ec="1" mid="465700053" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="Medium" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="meatTank1F3" flx="false" />
+								<r90 aid="meatTank1F1" flx="false" />
+								<r180 aid="meatTank1B7" flx="false" />
+								<r270 aid="meatTank1B9" flx="false" />
+							</l>
+						</definedStates>
+						<indicator animAsIndicator="true" mirX="0" mirY="0" x="0" y="0" />
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="algaeFarmLight3" flx="false" />
+							<r90 aid="algaeFarmLight1" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+						<boxHatch boxX="19" boxY="-1" flipR90="true" in="true" out="false" type2="false" x="19" y="-1">
+							<activate activateOffX="0" activateOffY="-1" />
+							<r90Pos boxX="-20" boxY="-1" x="-20" y="-1" />
+						</boxHatch>
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+		</me>
+		<me _linkedBy="465700050 Meat Dispenser" alternateY="false" costGroup="949" ec="1" mid="465700054" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="High" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="true" state="Standby">
+								<r0 aid="algaeKitchen1F3" flx="false" />
+								<r90 aid="algaeKitchen1F1" flx="false" />
+								<r180 aid="algaeKitchen1B7" flx="false" />
+								<r270 aid="algaeKitchen1B9" flx="false" />
+								<tasks>
+									<l dir="D7" gridOffX="0" gridOffY="-1" setStateInUse="true" task="StandWork" usage="Both">
+										<r0offset charOffX="-6" charOffY="3" />
+										<r180offset charOffX="6" charOffY="-3" />
+										<r90offset charOffX="0" charOffY="4" />
+									</l>
+								</tasks>
+							</l>
+						</definedStates>
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="algaeKitchenLight3" flx="false" />
+							<r90 aid="algaeKitchenLight1" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="true">
+							<produces>
+								<l advPowerUsage="0.0" basicPowerUsage="1.0" product="465700100" suction="false" valuePerSec="10" />
+							</produces>
+							<stateWatchdog autoproduce="true" />
+							<noiseAndComfort category="ObjectId" onlyWhenInuse="false">
+								<noise ignoreZoomLevel="false" noise="10.0">
+									<audio auid="4413" />
+								</noise>
+								<radiusBeauty leisure="0" radius="6" roomDrop="20" sleep="-20" work="0" />
+							</noiseAndComfort>
+						</features>
+						<boxHatch boxX="15" boxY="0" flipR90="true" in="false" out="true" type2="false" x="15" y="0">
+							<activate activateOffX="0" activateOffY="-1" />
+							<r90Pos boxX="-21" boxY="1" x="-21" y="1" />
+						</boxHatch>
+						<commonPower />
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+		</me>
+	
+		<!-- Patched Algae Dispenser -->
+		
+		<me _linkedBy="2646 Algae Dispenser" alternateY="false" costGroup="949" ec="1" mid="2643" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="High" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="true" state="Standby">
+								<r0 aid="algaeKitchen1F3" flx="false" />
+								<r90 aid="algaeKitchen1F1" flx="false" />
+								<r180 aid="algaeKitchen1B7" flx="false" />
+								<r270 aid="algaeKitchen1B9" flx="false" />
+								<tasks>
+									<l dir="D7" gridOffX="0" gridOffY="-1" setStateInUse="true" task="StandWork" usage="Both">
+										<r0offset charOffX="-6" charOffY="3" />
+										<r180offset charOffX="6" charOffY="-3" />
+										<r90offset charOffX="0" charOffY="4" />
+									</l>
+								</tasks>
+							</l>
+						</definedStates>
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="algaeKitchenLight3" flx="false" />
+							<r90 aid="algaeKitchenLight1" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="true">
+							<produces>
+								<l advPowerUsage="0.0" basicPowerUsage="1.0" product="465700101" suction="false" valuePerSec="10" />
+							</produces>
+							<stateWatchdog autoproduce="true" />
+							<noiseAndComfort category="ObjectId" onlyWhenInuse="false">
+								<noise ignoreZoomLevel="false" noise="10.0">
+									<audio auid="4413" />
+								</noise>
+								<radiusBeauty leisure="0" radius="6" roomDrop="20" sleep="-20" work="0" />
+							</noiseAndComfort>
+						</features>
+						<boxHatch boxX="15" boxY="0" flipR90="true" in="false" out="true" type2="false" x="15" y="0">
+							<activate activateOffX="0" activateOffY="-1" />
+							<r90Pos boxX="-21" boxY="1" x="-21" y="1" />
+						</boxHatch>
+						<commonPower />
+					</element>
+				</l>
+			</data>
+			<linked />
+			<events />
+		</me>
+	
+	
+	
+		
+	</Element>
+	
+	<Product>
+	
+		<!-- Meat Dispenser Recipe -->
+		
+		<product _annotation="Water Artificial Meat to Processed Food" composter="false" customPriority="-1" eid="465700100" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Water" consumeEvery="20" element="16" howMuch="1" />
+				<l _annotation="Artifical Meat" consumeEvery="10" element="707" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Processed Food" element="179" howMuch="1" produceEvery="1" />
+			</products>
+			<accidentList listId="3189" />
+			<foodProcessing ownProductsOnly="true">
+				<dispenser capacity="10" timeToCharge="100">
+					<customFood canBeProcessed="false" carbs="10.0" fat="5.0" neverEat="false" protein="12.0" rank="1.5" raw="false" sortOrder="0" toxins="2.5" useByDefaultValue="0" vitamins="1.0" />
+				</dispenser>
+			</foodProcessing>
+			<difficulty level="1" skill="None" />
+			<desc />
+		</product>
+		
+		
+		<!-- Patched Processed Food product def -->
+		
+		<product _annotation="Water Bio Matter to Processed Food (Algae)" composter="false" customPriority="-1" eid="465700101" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Water" consumeEvery="10" element="16" howMuch="1" />
+				<l _annotation="Bio Matter" consumeEvery="20" element="71" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Processed Food (Algae)" element="465700400" howMuch="1" produceEvery="1" />
+			</products>
+			<accidentList listId="3189" />
+			<foodProcessing ownProductsOnly="true">
+				<dispenser capacity="7" timeToCharge="100">
+					<customFood canBeProcessed="false" carbs="40.0" fat="1.0" neverEat="false" protein="2.0" rank="1.5" raw="false" sortOrder="0" toxins="5.0" useByDefaultValue="0" vitamins="3.0" />
+				</dispenser>
+			</foodProcessing>
+			<difficulty level="1" skill="None" />
+			<desc />
+		</product>
+		
+		
+		
+		<!-- Food Tray defs -->
+		
+		<!-- Processed Food (Algae) -->
+		
+		<product _annotation="Processed Food (Algae)" eid="465700400" elementType="Defined" item="465700451" type="Elementary">
+			<name tid="465700304" />
+			<desc tid="465700306" />
+			<GUIAnimation aid="algaeTrayIcon" />
+			<sort p="13" s="2" />
+			<edible canBeProcessed="false" carbs="40.0" fat="1.0" neverEat="false" protein="2.0" rank="1.5" raw="false" sortOrder="0" toxins="5.0" useByDefaultValue="0" vitamins="3.0" />
+		</product>
+		
+		
+		
+		
+	</Product>
+	
+	<Item>
+	
+		<!-- Food tray item defs -->
+		
+		<!-- Processed Food (Algae) item -->
+	
+		<item _annotation="Alage Tray item" eid="465700450" handness="TwoHand" mid="465700451">
+			<name tid="465700304" />
+			<desc tid="465700306" />
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="algaeTray01Flip" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="algaeTray01" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="algaeTray01Down" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="algaeTray01Down" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="algaeTray01Side" />
+				</l>
+			</anims>
+			<offset x="0" y="3" />
+			
+			
+			
+			
+			
+			
+		</item>	
+	
+	</Item>
+	
+</data>

@@ -1,0 +1,16 @@
+<mod>
+  <name>Merc's Gourmet Kitchen</name>
+  <author>TedDraws#0648 aka Mercenary</author>
+  <description>Adds in new meals and food.
+version 0.2
+ 
+NEW BUILDINGS
+-Meat Dispenser
+ 
+  </description>
+  <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
+  <gameVersions>
+    <v>0.14.1</v>
+  </gameVersions>
+  <modid>4657</modid>
+</mod>

@@ -1,0 +1,265 @@
+<AllAnimations>
+
+	<animations>
+	
+		<!-- Meat tank Anims -->
+	
+		<ba f="12" id="465700200" ks="1,23" n="meatTank1F3">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos a="382" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="1" y="14" />
+				<assetPos a="854" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-23" y="15" />
+				<assetPos a="1045" bi="0" r="0" sx="1" sy="1" vf="1:1" x="17" y="0" />
+				<assetPos an="meatContents1" bi="0" l="0" r="0" se="75" sf="1" sx="1" sy="1" vf="1:1" x="-1" y="0" />
+				<assetPos a="935" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="11" y="20" />
+				<assetPos a="1136" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-14" y="17" />
+			</items>
+		</ba>
+		<ba f="12" id="465700201" ks="1,23" n="meatTank1F1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos a="382" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-2" y="17" />
+				<assetPos a="993" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-1" y="4" />
+				<assetPos a="1045" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="18" y="0" />
+				<assetPos an="meatContents1" bi="0" l="0" r="0" se="75" sf="1" sx="1" sy="1" vf="1:1" x="-2" y="3" />
+				<assetPos a="1136" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-15" y="17" />
+			</items>
+		</ba>
+		<ba f="12" id="465700202" ks="1,23" n="meatTank1B7">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos a="382" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="0" y="14" />
+				<assetPos a="1025" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="4" y="7" />
+				<assetPos an="meatContents1" bi="0" l="0" r="0" se="75" sf="1" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos a="725" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="-9" y="4" />
+			</items>
+		</ba>
+		<ba f="12" id="465700203" ks="1,23" n="meatTank1B9">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos a="382" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="14" />
+				<assetPos a="1066" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-14" y="27" />
+				<assetPos an="meatContents1" bi="0" l="0" r="0" se="75" sf="1" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos a="935" bi="0" r="0" sx="1" sy="1" vf="1:1" x="10" y="20" />
+				<assetPos a="725" bi="0" r="0" sx="1" sy="1" vf="1:0" x="-15" y="7" />
+				<assetPos a="778" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-18" y="7" />
+			</items>
+		</ba>
+		<ba f="12" id="465700204" ks="1,2,3,5,9,13,17,21,23" n="meatContents1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+					<c>
+						<b id="6">
+							<pos>
+								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+							</pos>
+						</b>
+						<b id="10">
+							<pos>
+								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+							</pos>
+						</b>
+						<b id="11">
+							<pos>
+								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+							</pos>
+							<c>
+								<b id="29">
+									<pos>
+										<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+									</pos>
+									<c>
+										<b id="30">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+										<b id="31">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+										<b id="32">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+										<b id="33">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+										<b id="34">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+										<b id="35">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+										<b id="36">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="-20" />
+												<p col="-1" f="5" r="0" sx="1" sy="1" x="0" y="-18" />
+												<p col="-1" f="9" r="0" sx="1" sy="1" x="0" y="-14" />
+												<p col="-1" f="13" r="0" sx="1" sy="1" x="0" y="-10" />
+												<p col="-1" f="17" r="0" sx="1" sy="1" x="0" y="-6" />
+												<p col="-1" f="21" r="0" sx="1" sy="1" x="0" y="-2" />
+												<p col="-1" f="23" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+										<b id="44">
+											<pos>
+												<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+											</pos>
+										</b>
+									</c>
+								</b>
+							</c>
+						</b>
+						<b id="5">
+							<pos>
+								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+							</pos>
+						</b>
+						<b id="4">
+							<pos>
+								<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+							</pos>
+						</b>
+					</c>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="465700001" bi="6" r="0" sx="1" sy="1" vf="3:1" x="0" y="42" />
+				<assetPos filename="465700006" bi="30" r="0" sx="1" sy="1" vf="1:0,3:1" x="0" y="30" />
+				<assetPos filename="465700008" bi="31" r="0" sx="1" sy="1" vf="3:0,5:1" x="0" y="35" />
+				<assetPos filename="465700008" bi="32" r="0" sx="1" sy="1" vf="3:0,9:1" x="0" y="39" />
+				<assetPos filename="465700008" bi="33" r="0" sx="1" sy="1" vf="3:0,13:1" x="0" y="43" />
+				<assetPos filename="465700008" bi="34" r="0" sx="1" sy="1" vf="3:0,17:1" x="0" y="47" />
+				<assetPos filename="465700008" bi="35" r="0" sx="1" sy="1" vf="3:0,21:1" x="0" y="51" />
+				<assetPos filename="465700004" bi="36" r="0" sx="1" sy="1" vf="1:0,3:1" x="0" y="54" />
+				<assetPos filename="465700009" bi="44" r="0" sx="1" sy="1" vf="1:0,2:1,3:0" x="0" y="34" />
+				<assetPos filename="465700000" bi="5" r="0" sx="1" sy="1" vf="3:1" x="0" y="40" />
+				<assetPos filename="465700002" bi="4" r="0" sx="1" sy="1" vf="3:1" x="0" y="58" />
+			</items>
+		</ba>
+
+		<!-- Meat Tank icon -->
+
+		<ba f="30" id="465700204" ks="1" n="meatTankIcon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="465700010" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>	
+		
+		<!-- Food trays -->
+		
+		<!-- Algae Tray anims -->
+		
+		<ba f="30" id="465700350" ks="1" n="algaeTray01">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="465700500" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		<ba f="30" id="465700351" ks="1" n="algaeTray01Side">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="465700501" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-2" y="2" />
+			</items>
+		</ba>
+		<ba f="30" id="465700352" ks="1" n="algaeTray01Down">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="465700502" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="1" />
+			</items>
+		</ba>
+		<ba f="30" id="465700353" ks="1" n="algaeTray01Flip">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="465700500" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+		<ba f="30" id="465700354" ks="1" n="algaeTrayIcon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="465700503" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+	
+	</animations>
+
+</AllAnimations>
